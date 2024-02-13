@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+}
+ header{
+    width: 100%;
+    height: 70px;
+    background:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 50;
+   
+ }
+ .logo{
+    height: 26.44px;
+    margin-left: 15px;
+ }
+ nav{
+    margin-right: 50px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+ }
+ nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+ }
+
+ nav a:hover{
+    color: tomato;
+    text-decoration: none;
+ }
+ .banner{
+    height: 120vh;
+    width: 100%;
+    background-image: url(images/050251APPY-FIZZ_Digital_2023-Kriti-1.jpg);
+    background-size: cover;
+
+ }
+ .main{
+   width: 100%;
+   height: 900px;
+   display: flex;
+   flex-direction: row;
+ }
+ .black{
+   width: 780px;
+   height: 900px;
+   background-color: black;
+   position: relative;
+ }
+ .leafimg{
+   width: 190px;
+   margin-left: 200px;
+   margin-top: 100px;
+   
+ }
+ .txt1{
+   color: white;
+   width: 60%;
+   left: 120px;
+   top: 250px;
+   position: absolute;
+   z-index: 1;
+   text-align: center;
+   font-size: 80px;
+   font-weight: 800;
+ }
+ .text2{
+   
+   font-size: 24px;
+   line-height: 1.2;
+   text-align: justify;
+   margin-top: 100px;
+   margin-left: 130px;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ .socialicons{
+   display: flex;
+   flex-direction: row;
+   width: 140px;
+   justify-content: space-between;
+   margin-left: 130px;
+ }
+ .products{
+   height: 120vh;
+   width: 100%;
+   background-image: url("images/053402APPY-FIZZ_Social-Media_Range_2023.jpg");
+   background-size: cover;
+ }
+
+ .f1{
+   width: 30px;
+   height: 30px;
+ }
+ .i1{
+   width: 30px;
+   height: 30px;
+
+ }
+ .y1{
+   width: 30px;
+   height: 30px;
+ }
+ .t1{
+   width: 30px;
+   height: 30px;
+ }
+footer{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 100%;
+   height: 200px;
+   align-items: center;
+}
+.icons2{
+   display: flex;
+   flex-direction: row;
+   width: 120px;
+   justify-content: space-between;
+   margin-left: 5px;
+}
+.l2{
+   width: 25px;
+   height: 25px;
+}
+.i2{
+   width: 25px;
+   height: 25px;
+}
+.t2{
+   width: 25px;
+   height: 25px;
+
+}
+.f2{
+   width: 25px;
+   height: 25px;
+}
+a{
+   text-decoration: none;
+   color: black;
+   font-weight: 800;
+}
+a:hover{
+   color: red;
+   text-decoration: underline;
+
+}
